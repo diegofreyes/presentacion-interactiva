@@ -4445,10 +4445,56 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
 .home-nav {
   position: absolute;
   display: block;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  list-style: none; }
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .home-nav__button {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #6026be;
+    background-color: #dbdbdb; }
+    .home-nav__button a {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+      text-decoration: none; }
+  .home-nav__icon {
+    text-align: center;
+    margin-bottom: 0.8rem; }
+    .home-nav__icon i {
+      font-size: 3rem; }
+
+.video-container {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 300px;
+  transform: translateY(-50%);
+  width: 75%;
+  height: 75%; }
+  .video-container .video {
+    width: 100%;
+    height: 100%; }
