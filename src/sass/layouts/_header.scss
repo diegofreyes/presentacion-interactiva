@@ -1,0 +1,8 @@
+.header{
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: $gutter*4 $gutter*4 0;
+}

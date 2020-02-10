@@ -6,7 +6,11 @@
 @import "abstracts/variables";
 @import "base/typography";
 @import "base/base";
-@import "base/layout";
+
+@import "layouts/wrapper";
+@import "layouts/header";
+@import "layouts/footer";
 
 @import "components/home-nav";
 @import "components/video";
+@import "components/buttons";
