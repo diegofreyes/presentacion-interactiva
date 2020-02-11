@@ -5,4 +5,13 @@
     justify-content: space-between;
     align-items: center;
     padding: $gutter*4 $gutter*4 0;
+    z-index: 30;
+
+    &-nav{
+        .btn{
+            width: 20rem;
+            margin: 0 $gutter;
+            justify-content: center;
+        }
+    }
 }

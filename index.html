@@ -5,71 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inicio</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        
+        <div class="wrapper-overlay"></div>
+        <div class="wrapper-flap"></div>
         <header class="header">
             <figure class="header-logo">
                 <img src="" alt="">
             </figure>
             <div class="header-nav">
-                <a href="" class="btn">Catálogo</a>
-                <a href="" class="btn">Simulador 3D</a>
-                <a href="" class="btn">Mapa</a>
-            </div>
-            <div class="header-home">
-                <a href="" class="btn">Inicio</a>
+                <a href="./catalog.html" class="btn btn--outline"><i class="fas fa-couch"></i> Catálogo</a>
+                <a href="./simulator.html" class="btn btn--outline"><i class="fas fa-door-open"></i> Simulador 3D</a>
+                <a href="./map.html" class="btn btn--outline"><i class="fas fa-map-marked-alt"></i> Mapa</a>
+                <a href="./index.html" class="btn btn--outline u-mgl-md"><i class="fas fa-home"></i> Inicio</a>
             </div>
         </header>
 
-        <ul class="home-nav">
-            <li class="home-nav__button">
-                <a href="./catalog.html">
-                    <div class="home-nav__container">
-                        <div class="home-nav__icon">
-                            <i class="fas fa-couch"></i>
+        <main class="main">
+            <ul class="home-nav">
+                <li class="home-nav__button">
+                    <a href="./catalog.html">
+                        <div class="home-nav__container">
+                            <div class="home-nav__icon">
+                                <i class="fas fa-couch"></i>
+                            </div>
+                            <span class="home-nav__name">
+                                Catálogo
+                            </span>
                         </div>
-                        <span class="home-nav__name">
-                            Catálogo
-                        </span>
-                    </div>
-                    
-                </a>
-            </li>
-            <li class="home-nav__button">
-                <a href="./simulator.html">
-                    <div class="home-nav__container">
-                        <div class="home-nav__icon">
-                            <i class="fas fa-door-open"></i>
+                    </a>
+                </li>
+                <li class="home-nav__button">
+                    <a href="./simulator.html">
+                        <div class="home-nav__container">
+                            <div class="home-nav__icon">
+                                <i class="fas fa-door-open"></i>
+                            </div>
+                            <span class="home-nav__name">
+                                Simulador 3D
+                            </span> 
                         </div>
-                        <span class="home-nav__name">
-                            Simulador 3D
-                        </span> 
-                    </div>
-                    
-                </a>
-            </li>
-            <li class="home-nav__button">
-                <a href="./map.html">
-                    <div class="home-nav__container">
-                        <div class="home-nav__icon">
-                            <i class="fas fa-map-marked-alt"></i>
+                        
+                    </a>
+                </li>
+                <li class="home-nav__button">
+                    <a href="./map.html">
+                        <div class="home-nav__container">
+                            <div class="home-nav__icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <span class="home-nav__name">
+                                Donde encontrarnos
+                            </span>
                         </div>
-                        <span class="home-nav__name">
-                            Donde encontrarnos
-                        </span>
-                    </div>
-                </a>
-            </li>
-        </ul>
+                    </a>
+                </li>
+            </ul>
 
-        <div class="video-container">
-            <video class="video" id="video-home" controls>
-                <source src="./assets/media/sample.mp4">
-            </video>
-        </div>
+            <div class="video-container">
+                <video class="video" id="video-home" controls>
+                    <source src="./assets/media/sample.mp4">
+                </video>
+            </div>
+        </main>
     </div>
 </body>
 </html>

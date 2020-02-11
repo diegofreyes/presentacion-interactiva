@@ -1,3 +1,25 @@
 .wrapper{
     height: 100%;
+
+    &-overlay{
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 10;
+        background-color: #000000;
+        opacity: .7;
+    }
+
+    &-flap{
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 30%;
+        z-index: 10;
+        background-color: #000000;
+        opacity: .7;
+    }
 }
