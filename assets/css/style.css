@@ -4446,22 +4446,23 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands'; }
 
 .u-mgl-sm {
-  margin-left: 0.8rem !important; }
-
-.u-mgl-md {
   margin-left: 1.6rem !important; }
 
+.u-mgl-md {
+  margin-left: 3.2rem !important; }
+
 .u-mgl-lg {
-  margin-left: 2.4rem !important; }
+  margin-left: 4.8rem !important; }
 
 .u-mgl-xlg {
-  margin-left: 3.2rem !important; }
+  margin-left: 6.4rem !important; }
 
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.1; }
+  line-height: 1.1;
+  color: #fff; }
 
 body {
   box-sizing: border-box;
@@ -4508,11 +4509,11 @@ html {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 3.2rem 3.2rem 0;
+  padding: 4.8rem 4.8rem 0;
   z-index: 30; }
   .header-nav .btn {
     width: 20rem;
-    margin: 0 0.8rem;
+    margin: 0;
     justify-content: center; }
 
 .footer {
@@ -4581,3 +4582,19 @@ html {
 .btn--outline, .btn--outline:link, .btn--outline:visited {
   border: 2px solid #ecf0f1;
   color: #ecf0f1; }
+
+.catalog-container {
+  display: flex;
+  margin: 4.8rem 3.2rem;
+  flex-flow: row wrap;
+  justify-content: space-center; }
+
+.catalog-item {
+  margin: 0 1.6rem 1.6rem;
+  width: calc( (100% - (1.6rem * 15)) / 5); }
+  .catalog-item.active {
+    width: calc( (100% - (1.6rem * 10)) / 5); }
+  .catalog-item__image img {
+    width: 100%; }
+  .catalog-item__info {
+    padding: 3.2rem; }
