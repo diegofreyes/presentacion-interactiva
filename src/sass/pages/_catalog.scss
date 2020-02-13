@@ -5,23 +5,43 @@
         margin: $gutter*3 $gutter*2;
         flex-flow: row wrap;
         justify-content: space-center;
+        overflow-y: scroll;
+        height: 800px;
     }
 
     &-item{ 
-        margin: 0 $gutter $gutter;
-        width: calc( (100% - (#{$gutter} * 15)) / 5);
-        &.active{
-            width: calc( (100% - (#{$gutter} * 10)) / 5);  
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 2.2rem;
+        overflow: hidden;
+        margin-bottom: $gutter*2;
+        position: relative;
+
+        &-container{
+            margin: 0 $gutter;
+            width: calc( (100% - (#{$gutter} * 10)) / 5);
         }
+        
         &__image{
             img{
                 width: 100%;
             }
         }
 
-        &__info{
-            padding: $gutter*2;
+        &__name{
+            font-weight: 400;
+            font-size: 2rem;
+            margin-bottom: $gutter/2;
         }
+
+        &__info{
+            padding: $gutter;
+            height: 140px;
+        }
+
+        &__view-more{
+            
+        }
+
 
     }
 }
