@@ -4607,3 +4607,30 @@ html {
   .catalog-item__info {
     padding: 1.6rem;
     height: 140px; }
+  .catalog-item__view, .catalog-item__view:link, .catalog-item__view:visited {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1px;
+    bottom: 1px;
+    height: 4.4rem;
+    text-transform: uppercase;
+    border-top-left-radius: 2.2rem;
+    border-bottom-right-radius: 2.2rem;
+    padding: 0 2.2rem;
+    min-width: 100px;
+    background-color: #ececec;
+    text-decoration: none; }
+
+.product-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 700px;
+  width: 90%;
+  transform: translate(-50%, -50%); }
+
+.simulator-container {
+  margin: 4.8rem 4.8rem;
+  height: 800px; }
