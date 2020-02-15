@@ -1,5 +1,7 @@
 .wrapper{
     height: 100%;
+    background-color: $color-dark;
+    background-image: linear-gradient( to bottom, $color-dark, $color-darker);
 
     &-overlay{
         position: absolute;
@@ -8,8 +10,8 @@
         bottom: 0;
         width: 100%;
         z-index: 10;
-        background-color: #ffffff;
-        opacity: .7;
+        background-image: linear-gradient( to bottom, $color-dark, $color-darker);
+        opacity: .9;
     }
 
     &-flap{

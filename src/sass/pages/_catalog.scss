@@ -6,15 +6,17 @@
         flex-flow: row wrap;
         justify-content: space-center;
         overflow-y: scroll;
-        height: 800px;
+        height: 830px;
     }
 
     &-item{ 
-        border: 1px solid rgb(214, 214, 214);
+        border: 1px solid $color-darker;
         border-radius: 2.2rem;
         overflow: hidden;
         margin-bottom: $gutter*2;
         position: relative;
+        
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
         &-container{
             margin: 0 $gutter;
@@ -36,6 +38,7 @@
         &__info{
             padding: $gutter;
             height: 140px;
+            background-color: darken($color-dark , 15%);
         }
 
         &__view{
@@ -45,16 +48,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                right: 1px;
-                bottom: 1px;
+                right: 0px;
+                bottom: 0px;
                 height: 4.4rem;
                 text-transform: uppercase;
                 border-top-left-radius: 2.2rem;
                 border-bottom-right-radius: 2.2rem;
                 padding: 0 2.2rem;
                 min-width: 100px;
-                background-color: #ececec;
                 text-decoration: none;
+                background-color: $color-primary;
+                background-image: linear-gradient( 160deg, $color-primary-lighter, $color-primary );
+                color: $color-light;
             }
         }
 
@@ -67,6 +72,9 @@
     top: 50%;
     left: 50%;
     height: 700px;
-    width: 90%;
+    width: 80%;
     transform: translate(-50%, -50%);
+    background-color: darken($color-dark, 15%);
+    border-radius: 2.2rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
