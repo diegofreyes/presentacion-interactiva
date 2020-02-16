@@ -2,11 +2,9 @@
 
     &-container{
         display: flex;
-        margin: $gutter*3 $gutter*2;
+        margin: 0 $gutter*2;
         flex-flow: row wrap;
         justify-content: space-center;
-        overflow-y: scroll;
-        height: 830px;
     }
 
     &-item{ 
@@ -67,14 +65,3 @@
     }
 }
 
-.product-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 700px;
-    width: 80%;
-    transform: translate(-50%, -50%);
-    background-color: darken($color-dark, 15%);
-    border-radius: 2.2rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}

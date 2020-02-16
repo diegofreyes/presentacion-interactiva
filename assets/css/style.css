@@ -4457,6 +4457,18 @@ readers do not read off random characters that represent icons */
 .u-mgl-xlg {
   margin-left: 6.4rem !important; }
 
+.u-mgr-sm {
+  margin-right: 1.6rem !important; }
+
+.u-mgr-md {
+  margin-right: 3.2rem !important; }
+
+.u-mgr-lg {
+  margin-right: 4.8rem !important; }
+
+.u-mgr-xlg {
+  margin-right: 6.4rem !important; }
+
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
@@ -4469,7 +4481,10 @@ body {
   min-height: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  background-color: #3B456A;
+  background-image: linear-gradient(to bottom, #3B456A, #161A29);
+  background-attachment: fixed; }
 
 *, *::after, *::before {
   margin: 0;
@@ -4482,18 +4497,22 @@ html {
   min-height: 100%; }
 
 .wrapper {
-  height: 100%;
-  background-color: #3B456A;
-  background-image: linear-gradient(to bottom, #3B456A, #161A29); }
+  height: 1080px;
+  overflow-y: scroll; }
   .wrapper-overlay {
     position: absolute;
     display: block;
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 30;
     background-image: linear-gradient(to bottom, #3B456A, #161A29);
-    opacity: .9; }
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-out; }
+    .wrapper-overlay.active {
+      opacity: .9;
+      visibility: visible; }
   .wrapper-flap {
     position: absolute;
     display: block;
@@ -4505,26 +4524,34 @@ html {
     opacity: .7; }
 
 .header {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 4.8rem 4.8rem 0;
-  z-index: 30; }
+  padding: 4.8rem;
+  z-index: 40;
+  width: 100%; }
+  .header-logo {
+    height: 4.4rem; }
+    .header-logo img {
+      height: 100%;
+      width: auto; }
   .header-nav .btn {
     width: 20rem;
     margin: 0;
     justify-content: center; }
 
 .footer {
-  z-index: 30; }
+  z-index: 40; }
 
 .main {
   position: relative;
   display: block;
-  z-index: 30;
-  width: 100%; }
+  z-index: 20;
+  width: 100%;
+  padding-top: 140px;
+  min-height: 100%; }
 
 .home-nav {
   position: absolute;
@@ -4559,13 +4586,15 @@ html {
   position: absolute;
   display: block;
   top: 50%;
-  left: 300px;
   transform: translateY(-50%);
+  right: 0;
   width: 75%;
   height: 75%; }
   .video-container .video {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    border-top-left-radius: 2.2rem;
+    border-bottom-left-radius: 2.2rem; }
 
 .btn, .btn:link, .btn:visited {
   align-items: center;
@@ -4590,11 +4619,9 @@ html {
 
 .catalog-container {
   display: flex;
-  margin: 4.8rem 3.2rem;
+  margin: 0 3.2rem;
   flex-flow: row wrap;
-  justify-content: space-center;
-  overflow-y: scroll;
-  height: 830px; }
+  justify-content: space-center; }
 
 .catalog-item {
   border: 1px solid #161A29;
@@ -4633,17 +4660,6 @@ html {
     background-color: #2368FD;
     background-image: linear-gradient(160deg, #2FDDE4, #2368FD);
     color: #EFFFFF; }
-
-.product-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 700px;
-  width: 80%;
-  transform: translate(-50%, -50%);
-  background-color: #202539;
-  border-radius: 2.2rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 .simulator-container {
   margin: 4.8rem 4.8rem;

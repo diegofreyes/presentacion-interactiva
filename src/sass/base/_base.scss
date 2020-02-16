@@ -5,6 +5,9 @@ body{
     // background-image: url('../img/background.jpg');
     background-size: cover;
     background-position: center center;
+    background-color: $color-dark;
+    background-image: linear-gradient( to bottom, $color-dark, $color-darker);
+    background-attachment: fixed;
 }
 
 *{
