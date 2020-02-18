@@ -1,0 +1,14 @@
+.main--home{
+    padding: $gutter*3;
+}
+
+.home-content{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+
+    .info-container{
+        margin-right: $gutter*3;
+        width: 440px;
+    }
+}
