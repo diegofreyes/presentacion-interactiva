@@ -4554,12 +4554,42 @@ html {
   min-height: 100%; }
 
 .home-nav {
-  display: block;
-  top: 180px;
-  width: 432px;
-  left: 0;
-  list-style: none;
-  margin: 0; }
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: absolute;
+  left: 4.8rem;
+  bottom: 6.4rem;
+  width: calc( 100% - ( 1.6rem*6)); }
+  .home-nav__button, .home-nav__button:link, .home-nav__button:visited {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: calc( (100% - (1.6rem*4)) / 3);
+    height: 180px;
+    border-radius: 2.2rem;
+    background-color: #0244d2;
+    background-image: linear-gradient(160deg, #17aab0, #0244d2);
+    color: #EFFFFF;
+    text-decoration: none; }
+    .home-nav__button:active, .home-nav__button:link:active, .home-nav__button:visited:active {
+      background-color: #2368FD;
+      background-image: linear-gradient(160deg, #2FDDE4, #2368FD); }
+  .home-nav__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 140px;
+    font-size: 46px;
+    background-color: #0240c7;
+    background-image: linear-gradient(160deg, #16a1a7, #0240c7);
+    border-top-left-radius: 2.2rem;
+    border-bottom-left-radius: 2.2rem; }
+  .home-nav__name {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-left: 4rem; }
 
 .video-container {
   display: block;
@@ -4567,8 +4597,7 @@ html {
   .video-container .video {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 2.2rem;
-    border-bottom-left-radius: 2.2rem; }
+    border-radius: 2.2rem; }
 
 .btn, .btn:link, .btn:visited {
   align-items: center;
@@ -4601,6 +4630,13 @@ html {
   .home-content .info-container {
     margin-right: 4.8rem;
     width: 440px; }
+
+.home-logo {
+  width: 450px;
+  margin-bottom: 4.8rem; }
+  .home-logo img {
+    width: 100%;
+    height: auto; }
 
 .simulator-container {
   margin: 4.8rem 4.8rem;

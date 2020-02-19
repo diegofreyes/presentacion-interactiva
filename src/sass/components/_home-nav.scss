@@ -1,8 +1,48 @@
 .home-nav{
-    display: block;
-    top: 180px;
-    width: 432px;
-    left: 0;
-    list-style: none;
-    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: absolute;
+    left: $gutter*3;
+    bottom: $gutter*4;
+    width: calc( 100% - ( #{$gutter}*6));
+
+    &__button{
+        &, &:link, &:visited{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            width: calc( (100% - (#{$gutter}*4)) / 3);
+            height: 180px;
+            border-radius: 2.2rem;
+            background-color: darken($color-primary, 15%);
+            background-image: linear-gradient( 160deg, darken($color-primary-lighter, 15%), darken($color-primary, 15%) );
+            color: $color-light;
+            text-decoration: none;
+
+            &:active{
+                background-color: $color-primary;
+                background-image: linear-gradient( 160deg, $color-primary-lighter, $color-primary ); 
+            }
+        }
+    }
+
+    &__icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 180px;
+        width: 140px;
+        font-size: 46px;
+        background-color: darken($color-primary, 17%);
+        background-image: linear-gradient( 160deg, darken($color-primary-lighter, 17%), darken($color-primary, 17%) );
+        border-top-left-radius: 2.2rem;
+        border-bottom-left-radius: 2.2rem;
+    }
+
+    &__name{
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        margin-left: 4rem;
+    }
 }
