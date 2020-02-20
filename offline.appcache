@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# 2020-19-02 12:09:00
+
+# Explicitly cached 'master entries'.
+CACHE:
+index.html
+map.html
+catalog.html
+assets/css/style.css
+
+# Resources that require the user to be online.
+NETWORK:
+*
