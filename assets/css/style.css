@@ -4545,7 +4545,7 @@ html {
 .footer {
   z-index: 40; }
 
-.main {
+.main-container {
   position: relative;
   display: block;
   z-index: 20;
@@ -4792,4 +4792,5 @@ html {
 
 .simulator-container {
   margin: 0 4.8rem;
-  height: 800px; }
+  height: 840px;
+  background-color: #EFFFFF; }
