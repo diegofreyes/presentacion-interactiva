@@ -5,7 +5,7 @@
     left: 50%;
     height: 600px;
     width: 1200px;
-    transform: translate(-50%, 50%) scale(0.9);
+    transform: translate(-50%, 50%) scale(0);
     visibility: hidden;
     opacity: 0;
     background-color: darken($color-dark, 15%);
@@ -76,14 +76,27 @@
         width: 80%;
         font-size: 2.4rem;
         margin-bottom: $gutter;
+        color: $color-primary-text;
     }
 
     &__datasheet{
         width: 100%;
         font-size: 2rem;
 
+        th{
+            font-weight: 400;
+        }
+
         th, td{
             text-align: left;
+            background-color: rgba($color-dark, .4);
+            border-bottom: 1px solid $color-darker;
+            padding: 1rem $gutter;
         }
+
+        td{
+            background-color: rgba($color-dark, .2);
+        }
+
     }
 }

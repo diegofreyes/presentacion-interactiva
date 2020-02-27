@@ -81,7 +81,7 @@
         {
             var fragment = '';
             $.each( $products, function( key, value ){
-                fragment += '<div class="catalog-item-container">\
+                fragment += '<div class="catalog-item-container animated fadeInUp">\
                                 <div class="catalog-item" id="'+ value.id +'">\
                                     <figure class="catalog-item__image">\
                                         <img src="'+ value.image +'" alt="">\

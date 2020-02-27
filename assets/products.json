@@ -58,5 +58,125 @@
                 "value": "Cuero sintético"
             }
         ]
+    },
+    {
+        "id": 4,
+        "name": "Juego de Sala Burdeos Cuero Gris",
+        "sku": "446456",
+        "image": "./assets/img/products/03.jpg",
+        "datasheet" : [
+            {
+                "name": "Marca",
+                "value": "Hogar Venecia"
+            },
+            {
+                "name": "Material",
+                "value": "Madera de pino"
+            },
+            {
+                "name": "Material tapiz",
+                "value": "Cuero sintético"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Juego de Sala Burdeos Cuero Gris",
+        "sku": "446456",
+        "image": "./assets/img/products/03.jpg",
+        "datasheet" : [
+            {
+                "name": "Marca",
+                "value": "Hogar Venecia"
+            },
+            {
+                "name": "Material",
+                "value": "Madera de pino"
+            },
+            {
+                "name": "Material tapiz",
+                "value": "Cuero sintético"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Juego de Sala Burdeos Cuero Gris",
+        "sku": "446456",
+        "image": "./assets/img/products/03.jpg",
+        "datasheet" : [
+            {
+                "name": "Marca",
+                "value": "Hogar Venecia"
+            },
+            {
+                "name": "Material",
+                "value": "Madera de pino"
+            },
+            {
+                "name": "Material tapiz",
+                "value": "Cuero sintético"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Juego de Sala Burdeos Cuero Gris",
+        "sku": "446456",
+        "image": "./assets/img/products/03.jpg",
+        "datasheet" : [
+            {
+                "name": "Marca",
+                "value": "Hogar Venecia"
+            },
+            {
+                "name": "Material",
+                "value": "Madera de pino"
+            },
+            {
+                "name": "Material tapiz",
+                "value": "Cuero sintético"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Juego de Sala Burdeos Cuero Gris",
+        "sku": "446456",
+        "image": "./assets/img/products/03.jpg",
+        "datasheet" : [
+            {
+                "name": "Marca",
+                "value": "Hogar Venecia"
+            },
+            {
+                "name": "Material",
+                "value": "Madera de pino"
+            },
+            {
+                "name": "Material tapiz",
+                "value": "Cuero sintético"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Juego de Sala Burdeos Cuero Gris",
+        "sku": "446456",
+        "image": "./assets/img/products/03.jpg",
+        "datasheet" : [
+            {
+                "name": "Marca",
+                "value": "Hogar Venecia"
+            },
+            {
+                "name": "Material",
+                "value": "Madera de pino"
+            },
+            {
+                "name": "Material tapiz",
+                "value": "Cuero sintético"
+            }
+        ]
     }
 ]
