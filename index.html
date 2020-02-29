@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es" manifest="index.appcache">
+<!-- <html lang="es" manifest="index.appcache"> -->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,11 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="video-container animated fadeIn">
+            <video class="video" id="video-home" autoplay loop>
+                <source src="./assets/media/sample.mp4">
+            </video>
+        </div>
         <main class="main-container main--home">
             <div class="home-content">
                 <div class="info-container">
@@ -22,11 +28,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa laborum eveniet architecto eaque possimus iste. Vel, incidunt et? Non, obcaecati assumenda! Consectetur consequuntur perferendis ullam velit excepturi beatae cupiditate?
                     </p>
                 </div>
-                <div class="video-container animated fadeIn">
-                    <video class="video" id="video-home" controls>
-                        <source src="./assets/media/sample.mp4">
-                    </video>
-                </div>
+                
             </div>
             <nav class="home-nav">
                 <a href="./catalog.html" class="home-nav__button animated fadeInUp">
