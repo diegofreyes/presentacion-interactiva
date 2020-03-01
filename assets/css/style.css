@@ -4806,5 +4806,9 @@ html {
 
 .simulator-container {
   margin: 0 4.8rem;
-  height: 840px;
+  height: 880px;
   background-color: #EFFFFF; }
+
+#viewer {
+  width: 1356px;
+  height: 880px; }

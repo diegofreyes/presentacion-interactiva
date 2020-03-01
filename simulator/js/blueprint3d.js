@@ -4703,7 +4703,7 @@ var BP3D;
                 }
                 camera.aspect = scope.elementWidth / scope.elementHeight;
                 camera.updateProjectionMatrix();
-                renderer.setSize(scope.elementWidth, scope.elementHeight);
+                renderer.setSize(scope.elementWidth, 880);
                 needsUpdate = true;
             };
             this.centerCamera = function () {

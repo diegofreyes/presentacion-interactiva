@@ -1,5 +1,10 @@
 .simulator-container{
     margin: 0 $gutter*3;
-    height: 840px;
+    height: 880px;
     background-color: $color-light;
+}
+
+#viewer{
+    width: 1356px;
+    height: 880px;
 }

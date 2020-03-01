@@ -317,7 +317,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   }
 
   function handleWindowResize() {
-    $(".sidebar").height(800);
+    $(".sidebar").height(840);
     $("#add-items").height(840);
 
   };
@@ -458,7 +458,7 @@ var ViewerFloorplanner = function(blueprint3d) {
   }
 
   this.handleWindowResize = function() {
-    $(canvasWrapper).height(500 - $(canvasWrapper).offset().top);
+    $(canvasWrapper).height(1000 - $(canvasWrapper).offset().top);
     scope.floorplanner.resizeView();
   };
 
