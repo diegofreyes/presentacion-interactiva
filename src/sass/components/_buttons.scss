@@ -1,4 +1,4 @@
-.btn{
+.button{
     &, &:link,&:visited{
         align-items: center;
         border-radius: 2.2rem;
@@ -8,6 +8,7 @@
         padding: 0 2.2rem;
         text-decoration: none;
         text-transform: uppercase;
+        border: none;
 
         i{
             margin-right: $gutter/2;

@@ -84,13 +84,13 @@ $(document).ready(function() {
       "name" : "Media Console - White",
       "image" : "models/thumbnails/thumbnail_clapboard-white-60-media-console-1.jpg",
       "model" : "models/js/cb-clapboard_baked.js",
-      "type" : "1"
+      "type" : "9"
     }, 
         {
       "name" : "Media Console - Black",
       "image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
       "model" : "models/js/cb-moore_baked.js",
-      "type" : "1"
+      "type" : "9"
     }, 
        {
       "name" : "Sectional - Olive",
@@ -151,7 +151,20 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_nyc2.jpg",
       "model" : "models/js/nyc-poster2.js",
       "type" : "2"
-    }
+    },
+    {
+      "name" : "Simple Cabinet",
+      "image" : "models/thumbnails/thumbnail_cabinet.png",
+      "model" : "models/js/cabinet.json",
+      "type" : "1"
+    },
+    {
+        "name" : "Duck",
+        "image" : "models/thumbnails/thumbnail_duck.png",
+        "model" : "models/js/Duck.gltf",
+        "type" : "1",
+        "format": "gltf",
+      }
    /*     
    {
       "name" : "",
@@ -163,22 +176,15 @@ $(document).ready(function() {
   ]
 
 
-
-  var itemsDiv = $("#items-wrapper")
-  for (var i = 0; i < items.length; i++) {
-    var item = items[i];
-    var html = '<div class="col-sm-4">' +
-                '<a class="thumbnail add-item" model-name="' + 
-                item.name + 
-                '" model-url="' +
-                item.model +
-                '" model-type="' +
-                item.type + 
-                '"><img src="' +
-                item.image + 
-                '" alt="Add Item"> '+
-                item.name +
-                '</a></div>';
+  var modelTypesNum = ["1","2","3","7","8","9"];
+  var modelTypesIds = ["floor-items", "wall-items", "in-wall-items", "in-wall-floor-items", "on-floor-items", "wall-floor-items"];
+  var itemsDiv = $("#items-wrapper");
+  for (var i = 0; i < items.length; i++) 
+  {
+	var item = items[i];
+    itemsDiv = $("#"+modelTypesIds[modelTypesNum.indexOf(item.type)]+"-wrapper");
+	var modelformat = (item.format) ?' model-format="'+item.format+'"' : "";
+    var html = '<div class="col-sm-4">' + '<a class="thumbnail add-item"' +' model-name="'+ item.name +'"' +' model-url="' +item.model+'"' +' model-type="' +item.type+'"' + modelformat+'>'+'<img src="'+item.image +'" alt="Add Item"  data-dismiss="modal"> '+item.name +'</a></div>';
     itemsDiv.append(html);
   }
 });
