@@ -156,3 +156,17 @@ div {
 .dg{
   display: none;
 }
+
+.modal-dialog{
+  width: 900px;
+  margin-top: 48px;
+  color: #efffff;
+}
+
+.modal-content,.modal-header, .modal-body, .modal-footer{
+  border: 1px solid #161A29;
+}
+
+.modal-content{
+  background-image: linear-gradient( to bottom, #3B456A, #161A29);
+}
