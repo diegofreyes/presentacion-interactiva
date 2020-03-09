@@ -30,7 +30,7 @@ div {
 
 #interfaces
 {
-	z-index: 0;
+  z-index: 0;
 }
 
 #interface-controls
@@ -38,9 +38,13 @@ div {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
-	bottom: 10px;
+	bottom: 48px;
 	z-index: 100;
 }
+ #interface-controls .button{
+   margin: 0 8px;
+ }
+
 #camera-controls
 {
 	float: left;
@@ -58,12 +62,17 @@ div {
 #floorplanner-controls 
 {
   position: absolute;
-  left: 0;
-  top: 0;
-  margin: 20px 0;
+  left: 50%;
+  top: 140px;
+  margin: 0;
   padding: 0 20px; 
-  width: 100%;
+  transform: translateX(-50%);
 }
+
+#floorplanner-controls .button{
+  margin: 0 8px;
+}
+
 
 #main-controls {
   position: absolute;
@@ -142,4 +151,8 @@ div {
 .dg select
 {
 	color: #000000;
+}
+
+.dg{
+  display: none;
 }
