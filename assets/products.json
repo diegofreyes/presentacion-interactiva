@@ -1,181 +1,525 @@
 [
     {
         "id": 1,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446453",
-        "image": "./assets/img/products/01.jpg",
+        "name": "Armario 6 Puertas 2 Cajones Internos 206x200 Cm",
+        "sku": "AM13423",
+        "image": "./assets/img/products/AM13423.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
-            },
-            {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera aglomerada recubierta con melamina - MDP"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "206cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "200cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "50cm"
+            },
+            {
+                "name": "Peso",
+                "value": "152.9kg"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446455",
-        "image": "./assets/img/products/02.jpg",
+        "name": "Mesa Para TV De 60",
+        "sku": "MTV17519",
+        "image": "./assets/img/products/MTV17519.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
-            },
-            {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera aglomerada recubierta con melamina - MDP"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "61cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "143cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "36cm"
+            },
+            {
+                "name": "Peso",
+                "value": "27.1kg"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Escritorio 3 Cajones",
+        "sku": "ES4103",
+        "image": "./assets/img/products/ES4103.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
-            },
-            {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera aglomerada recubierta con melamina - MDP"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "76cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "120cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "50cm"
+            },
+            {
+                "name": "Peso",
+                "value": "30.1kg"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Comoda 3 Cajones",
+        "sku": "COM8028",
+        "image": "./assets/img/products/COM8028.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
-            },
-            {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera aglomerada recubierta con melamina - MDP"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "90,6cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "80cm"
+            },
+            {
+                "name": "Peso",
+                "value": "33,0kg"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Mesa De Noche 1 Cajón Con Espacio Organizador",
+        "sku": "MN3710",
+        "image": "./assets/img/products/MN3710.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
-            },
-            {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera aglomerada recubierta con melamina - MDP"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "50cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "48cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "37cm"
             }
         ]
     },
     {
         "id": 6,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Sofacama Lievano Negro de 2 puestos",
+        "sku": "SF9459",
+        "image": "./assets/img/products/SF9459.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
-            },
-            {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera tropical seca e inmunizada - PVC Prana"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "84cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "180cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "85cm"
             }
         ]
     },
     {
         "id": 7,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Comedor Siena de 4 puestos",
+        "sku": "CS2330",
+        "image": "./assets/img/products/CS2330.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
+                "name": "Tipo de madera",
+                "value": "Tropical Seca e Inmunizada"
             },
             {
-                "name": "Material",
-                "value": "Madera de pino"
+                "name": "Tipo de Acabado",
+                "value": "Color caoba con laca semimatea"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Características del tapizado",
+                "value": "Tapizado sobre espuma D26 en tela tipo lino elaborada en poliéster 100%."
+            },
+            {
+                "name": "Medidas silla",
+                "value": "Largo: 52 cm Ancho: 47 cm Alto: 108 cm Peso: 14 kg (par)"
+            },
+            {
+                "name": "Medidas base",
+                "value": "Largo: 110 cm Ancho: 80 cm Alto: 77 cm Peso: 14 kg"
             }
         ]
     },
     {
         "id": 8,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Mesa de Centro Rafaela Caoba",
+        "sku": "MC3000",
+        "image": "./assets/img/products/MC3000.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
+                "name": "Ancho",
+                "value": "70cm"
             },
             {
-                "name": "Material",
-                "value": "Madera de pino"
+                "name": "Altura",
+                "value": "91cm"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Tipo de madera",
+                "value": "Tropical seca e inmunizada"
             }
         ]
     },
     {
         "id": 9,
-        "name": "Juego de Sala Burdeos Cuero Gris",
-        "sku": "446456",
-        "image": "./assets/img/products/03.jpg",
+        "name": "Mesa TV Arezzo Wengue",
+        "sku": "AR1000",
+        "image": "./assets/img/products/AR1000.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
         "datasheet" : [
             {
-                "name": "Marca",
-                "value": "Hogar Venecia"
+                "name": "Tipo de madera",
+                "value": "Tropical seca e inmunizada"
             },
+            {
+                "name": "Ancho",
+                "value": "100cm"
+            },
+            {
+                "name": "Altura",
+                "value": "63cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "35cm"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Closet Americano Color Wengue",
+        "sku": "CA0541",
+        "image": "./assets/img/products/CA0541.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Tipo de material",
+                "value": "Aglomerado con enchapes en melanina"
+            },
+            {
+                "name": "Ancho",
+                "value": "104cm"
+            },
+            {
+                "name": "Altura",
+                "value": "175cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "47cm"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Armario 6 Puertas 2 Cajones Internos 206x200 Cm",
+        "sku": "AM13423",
+        "image": "./assets/img/products/AM13423.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
             {
                 "name": "Material",
-                "value": "Madera de pino"
+                "value": "Madera aglomerada recubierta con melamina - MDP"
             },
             {
-                "name": "Material tapiz",
-                "value": "Cuero sintético"
+                "name": "Altura",
+                "value": "206cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "200cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "50cm"
+            },
+            {
+                "name": "Peso",
+                "value": "152.9kg"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Mesa Para TV De 60",
+        "sku": "MTV17519",
+        "image": "./assets/img/products/MTV17519.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Material",
+                "value": "Madera aglomerada recubierta con melamina - MDP"
+            },
+            {
+                "name": "Altura",
+                "value": "61cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "143cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "36cm"
+            },
+            {
+                "name": "Peso",
+                "value": "27.1kg"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Escritorio 3 Cajones",
+        "sku": "ES4103",
+        "image": "./assets/img/products/ES4103.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Material",
+                "value": "Madera aglomerada recubierta con melamina - MDP"
+            },
+            {
+                "name": "Altura",
+                "value": "76cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "120cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "50cm"
+            },
+            {
+                "name": "Peso",
+                "value": "30.1kg"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Comoda 3 Cajones",
+        "sku": "COM8028",
+        "image": "./assets/img/products/COM8028.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Material",
+                "value": "Madera aglomerada recubierta con melamina - MDP"
+            },
+            {
+                "name": "Altura",
+                "value": "90,6cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "80cm"
+            },
+            {
+                "name": "Peso",
+                "value": "33,0kg"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Mesa De Noche 1 Cajón Con Espacio Organizador",
+        "sku": "MN3710",
+        "image": "./assets/img/products/MN3710.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Material",
+                "value": "Madera aglomerada recubierta con melamina - MDP"
+            },
+            {
+                "name": "Altura",
+                "value": "50cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "48cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "37cm"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Sofacama Lievano Negro de 2 puestos",
+        "sku": "SF9459",
+        "image": "./assets/img/products/SF9459.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Material",
+                "value": "Madera tropical seca e inmunizada - PVC Prana"
+            },
+            {
+                "name": "Altura",
+                "value": "84cm"
+            },
+            {
+                "name": "Ancho",
+                "value": "180cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "85cm"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Comedor Siena de 4 puestos",
+        "sku": "CS2330",
+        "image": "./assets/img/products/CS2330.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Tipo de madera",
+                "value": "Tropical Seca e Inmunizada"
+            },
+            {
+                "name": "Tipo de Acabado",
+                "value": "Color caoba con laca semimatea"
+            },
+            {
+                "name": "Características del tapizado",
+                "value": "Tapizado sobre espuma D26 en tela tipo lino elaborada en poliéster 100%."
+            },
+            {
+                "name": "Medidas silla",
+                "value": "Largo: 52 cm Ancho: 47 cm Alto: 108 cm Peso: 14 kg (par)"
+            },
+            {
+                "name": "Medidas base",
+                "value": "Largo: 110 cm Ancho: 80 cm Alto: 77 cm Peso: 14 kg"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Mesa de Centro Rafaela Caoba",
+        "sku": "MC3000",
+        "image": "./assets/img/products/MC3000.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Ancho",
+                "value": "70cm"
+            },
+            {
+                "name": "Altura",
+                "value": "91cm"
+            },
+            {
+                "name": "Tipo de madera",
+                "value": "Tropical seca e inmunizada"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Mesa TV Arezzo Wengue",
+        "sku": "AR1000",
+        "image": "./assets/img/products/AR1000.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Tipo de madera",
+                "value": "Tropical seca e inmunizada"
+            },
+            {
+                "name": "Ancho",
+                "value": "100cm"
+            },
+            {
+                "name": "Altura",
+                "value": "63cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "35cm"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Closet Americano Color Wengue",
+        "sku": "CA0541",
+        "image": "./assets/img/products/CA0541.jpg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
+        "datasheet" : [
+            {
+                "name": "Tipo de material",
+                "value": "Aglomerado con enchapes en melanina"
+            },
+            {
+                "name": "Ancho",
+                "value": "104cm"
+            },
+            {
+                "name": "Altura",
+                "value": "175cm"
+            },
+            {
+                "name": "Profundidad",
+                "value": "47cm"
             }
         ]
     }

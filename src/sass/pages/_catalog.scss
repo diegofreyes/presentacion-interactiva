@@ -2,7 +2,7 @@
 
     &-container{
         display: flex;
-        margin: 0 $gutter*2;
+        margin: 0 $gutter*2 $gutter*4;
         flex-flow: row wrap;
         justify-content: space-center;
     }

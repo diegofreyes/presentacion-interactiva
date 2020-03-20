@@ -40,7 +40,8 @@
                             <div class="product__content">\
                                 <h1 class="product__name">'+ value.name +'</h1>\
                                 <span class="product__sku">SKU '+ value.sku +'</span>\
-                                <h2 class="product__subtitle">Ficha técnica</h2>\
+                                <p class="product__excerpt">'+ value.excerpt +'</p>\
+                                <div class="product__data"><h2 class="product__subtitle">Especificaciones</h2>\
                                 <table class="product__datasheet">'
             $.each( value.datasheet, function( key, item ){
                 fragmentItem += '<tr>\
@@ -49,7 +50,7 @@
                                 </tr>'
             })
 
-            fragmentItem += '</table></div>'
+            fragmentItem += '</table></div></div>'
                                     
             $product.html( fragmentItem )
         }
@@ -71,11 +72,7 @@
             rawFile.send(null)
         }
 
-        getProductsJSON("./assets/products.json", function(text){
-            $products = $.parseJSON(text)
-            console.log($products)
-            buildProducts()
-        })
+        
 
         function buildProducts()
         {
@@ -96,10 +93,16 @@
             })
 
             $catalogContainer.html(fragment)
+            
             init()
         }
 
-        
+        getProductsJSON("./assets/products.json", function(text){
+            $products = $.parseJSON(text)
+            console.log($products)
+            buildProducts()
+        })
 
     })
 })()
+    

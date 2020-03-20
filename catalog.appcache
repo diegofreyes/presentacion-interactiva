@@ -3,17 +3,14 @@ CACHE MANIFEST
 
 # Explicitly cached 'master entries'.
 CACHE:
-catalog.html
 assets/css/animate.css
-assets/css/style.css
-assets/img/sample-logo.png
-assets/media/sample.mp4
+assets/js/jquery.js
 assets/fonts/fa-solid-900.ttf
 assets/fonts/fa-solid-900.woff
 assets/fonts/fa-solid-900.woff2
-assets/img/products/01.jpg
-assets/img/products/02.jpg
-assets/img/products/03.jpg
+assets/fonts/Rubik-Bold.woff
+assets/fonts/Rubik-Medium.woff
+assets/fonts/Rubik-Regular.woff
 
 # Resources that require the user to be online.
 NETWORK:
