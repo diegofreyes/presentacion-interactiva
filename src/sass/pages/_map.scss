@@ -5,9 +5,26 @@
     overflow: hidden;
     position: relative;
     border-radius: 2.2rem;
+    border: 3px solid $color-primary-middle;
 }
 
 .map{
+    &-you-are-here{
+        height: 40px;
+        display: inline-flex;
+        color: $color-light;
+        background-color: $color-primary-lighter;
+        border-radius: 20px;
+        padding: 0 20px;
+        align-items: center;
+        position: absolute;
+        top: 197px;
+        left: 291px;
+        font-size: 20px;
+        i{
+            margin-right: 8px;
+        }
+    }
     &-indicator{
         position: absolute;
         display: block;

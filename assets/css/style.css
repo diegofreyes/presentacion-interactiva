@@ -4826,7 +4826,23 @@ html {
   margin: 0 4.8rem;
   overflow: hidden;
   position: relative;
-  border-radius: 2.2rem; }
+  border-radius: 2.2rem;
+  border: 3px solid #3399FF; }
+
+.map-you-are-here {
+  height: 40px;
+  display: inline-flex;
+  color: #EFFFFF;
+  background-color: #2FDDE4;
+  border-radius: 20px;
+  padding: 0 20px;
+  align-items: center;
+  position: absolute;
+  top: 197px;
+  left: 291px;
+  font-size: 20px; }
+  .map-you-are-here i {
+    margin-right: 8px; }
 
 .map-indicator {
   position: absolute;

@@ -127,7 +127,13 @@ $(document).ready(function(){
     var $first, $second, $third
 
     if( $map.length > 0){
-        init()
+        
+        setTimeout(
+            function(){
+                init()
+            },
+            1500
+        )
     }
 
     function init(){
