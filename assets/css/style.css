@@ -4650,6 +4650,11 @@ html {
   background-image: linear-gradient(160deg, #2FDDE4, #2368FD);
   color: #EFFFFF; }
 
+.button--primary-lighter, .button--primary-lighter:link, .button--primary-lightervisited {
+  background-color: #2FDDE4;
+  background-image: linear-gradient(160deg, #2FDDE4, #17aab0);
+  color: #EFFFFF; }
+
 .product-container {
   position: absolute;
   overflow: hidden;

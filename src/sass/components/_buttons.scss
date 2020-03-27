@@ -35,6 +35,13 @@
             color: $color-light;
         }
     }
+    &--primary-lighter{
+        &, &:link, &visited{
+            background-color: $color-primary-lighter;
+            background-image: linear-gradient( 160deg, $color-primary-lighter, darken($color-primary-lighter, 15%) );
+            color: $color-light;
+        }
+    }
 
 
 }

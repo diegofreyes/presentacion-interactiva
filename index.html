@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" manifest="index.appcache">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,5 +58,18 @@
     </div>
     <script src="./simulator/js/jquery.js"></script>
     <script src="./assets/js/scripts.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('service-worker.js')
+            .then(reg => {
+                console.log('Service worker registered!', reg);
+            })
+            .catch(err => {
+                console.log('Service worker registration failed: ', err);
+            });
+        });
+        }
+    </script>
 </body>
 </html>

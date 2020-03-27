@@ -122,6 +122,8 @@ $(document).ready(function(){
 window.oncontextmenu = function() {
     return false;
 }
+
+
 $(document).ready(function(){
     var $map = $(".map-container")
     var $first, $second, $third
