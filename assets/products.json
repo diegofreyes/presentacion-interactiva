@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Armario 6 Puertas 2 Cajones Internos 206x200 Cm",
+        "name": "Armario 2 Puertas 2 Cajones Internos 206x210 Cm",
         "sku": "AM13423",
         "image": "./assets/img/products/AM13423.jpg",
         "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
@@ -425,7 +425,7 @@
     },
     {
         "id": 17,
-        "name": "Comedor Siena de 4 puestos",
+        "name": "Comedor Caena de 4 puestos",
         "sku": "CS2330",
         "image": "./assets/img/products/CS2330.jpg",
         "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
@@ -475,7 +475,7 @@
     },
     {
         "id": 19,
-        "name": "Mesa TV Arezzo Wengue",
+        "name": "Mesa TV 60' Arezzo Wengue",
         "sku": "AR1000",
         "image": "./assets/img/products/AR1000.jpg",
         "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales orci vitae dui faucibus efficitur. Nulla facilisi.",
