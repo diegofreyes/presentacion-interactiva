@@ -4717,11 +4717,6 @@ html {
     font-size: 22px;
     line-height: 1.4;
     margin-bottom: 3.2rem; }
-  .product__data {
-    position: absolute;
-    bottom: 3.2rem;
-    right: 3.2rem;
-    left: 4.8rem; }
   .product__subtitle {
     position: relative;
     font-weight: 400;
